@@ -1,0 +1,22 @@
+
+This code provides a pure Java implementation of the W3C's XmlHttpRequest API.
+
+It can be used in any java program, or can be dropped into a processing sketch
+to allow writing portable code that works the same in the java and javascript
+runtimes. It may possibly even work on android...(?)
+
+The code was written by Richard Bair and described in his article:
+
+   "XmlHttpRequest and Swing"
+   http://weblogs.java.net/blog/rbair/archive/2006/08/xmlhttprequest.html
+
+I simply extracted the smallest subset of classes needed to compile
+org.jdesktop.http.async.XmlHttpRequest.
+
+The full code is in the SwingX-WS subversion repository, which is here:
+
+   http://java.net/projects/swingx-ws/sources/svn/show/trunk
+
+All of this code is licensed under the GNU LGPL v2.1, per the COPYING file found there.
+
+
